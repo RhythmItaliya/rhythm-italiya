@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#tsparticles {
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 74.9% 95.8%, 0% 99.5%, 0% 60%, 0% 0%);
+}
+
+.skills {
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 100% 100%, 23.3% 96.5%, 0% 100%, 0% 0%);
+}
+
+#education {
+  clip-path: polygon(0% 8%, 100% 0.3%, 100% 100%, 0% 100%);
+}
+
+#projects {
+  clip-path: polygon(22.1% 1%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 2.8%);
+}
+
+#contact {
+  clip-path: polygon(22.7% 0%, 100% 5%, 100% 100%, 80.2% 95%, 25% 100%, 0% 100%, 0% 4.3%);
+}
+
+/* #211D22 */
+.ant-drawer-content {
+  background-color: #082231 !important;
+  color: white !important;
+}
+
+.ant-drawer-close,
+.ant-drawer-title {
+  color: white !important;
+}

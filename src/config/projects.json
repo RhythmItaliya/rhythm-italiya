@@ -1,0 +1,112 @@
+{
+    "dataList1": [
+        {
+            "id": 0,
+            "name": "Study Table",
+            "desc": "Crafted a web-based Study Table application simplifying academic organization and task management.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411814/docs/kprfdksscupycl0kvatx.png",
+            "skills": [
+                "Tailwind",
+                "React",
+                "Type script",
+                "Redux",
+                "Firebase",
+                "Express",
+                "Mongodb"
+            ],
+            "live": "https://study-table.netlify.app",
+            "code": "https://github.com/Hriday-paul/study-tracker"
+        },
+        {
+            "id": 1,
+            "name": "Study Table",
+            "desc": "Crafted a web-based Study Table application simplifying academic organization and task management.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411814/docs/kprfdksscupycl0kvatx.png",
+            "skills": [
+                "Tailwind",
+                "React",
+                "Type script",
+                "Redux",
+                "Firebase",
+                "Express",
+                "Mongodb"
+            ],
+            "live": "https://study-table.netlify.app",
+            "code": "https://github.com/Hriday-paul/study-tracker"
+        }
+    ],
+    "dataList2": [
+        {
+            "id": 2,
+            "name": "Diagnostic Center",
+            "desc": "Developed a user-friendly web based diagnostic center management system website for efficient appointment booking and result tracking.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712410648/docs/ns41zajpflhotjef6nmq.png",
+            "skills": [
+                "Tailwind",
+                "Next Js",
+                "Next Auth",
+                "Type Script",
+                "Firebase",
+                "Express",
+                "Mongodb"
+            ],
+            "live": "https://daigo-bd.vercel.app",
+            "code": "https://github.com/Hriday-paul/daigo-bd"
+        },
+        {
+            "id": 3,
+            "name": "Diagnostic Center",
+            "desc": "Developed a user-friendly web based diagnostic center management system website for efficient appointment booking and result tracking.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712410648/docs/ns41zajpflhotjef6nmq.png",
+            "skills": [
+                "Tailwind",
+                "Next Js",
+                "Next Auth",
+                "Type Script",
+                "Firebase",
+                "Express",
+                "Mongodb"
+            ],
+            "live": "https://daigo-bd.vercel.app",
+            "code": "https://github.com/Hriday-paul/daigo-bd"
+        }
+    ],
+    "dataList3": [
+        {
+            "id": 4,
+            "name": "Chat Application",
+            "desc": "This chat application facilitates real-time communication through text, video, connecting users across various devices and platforms.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411973/docs/wmsfxw4rodj6gkn6ular.png",
+            "skills": [
+                "Tailwind",
+                "React",
+                "Type-script",
+                "Redux",
+                "Firebase",
+                "Express",
+                "Mongodb",
+                "Socket-io"
+            ],
+            "live": "https://message-friend.netlify.app",
+            "code": "https://github.com/Hriday-paul/Chat-web"
+        },
+        {
+            "id": 5,
+            "name": "Chat Application",
+            "desc": "This chat application facilitates real-time communication through text, video, connecting users across various devices and platforms.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411973/docs/wmsfxw4rodj6gkn6ular.png",
+            "skills": [
+                "Tailwind",
+                "React",
+                "Type-script",
+                "Redux",
+                "Firebase",
+                "Express",
+                "Mongodb",
+                "Socket-io"
+            ],
+            "live": "https://message-friend.netlify.app",
+            "code": "https://github.com/Hriday-paul/Chat-web"
+        }
+    ]
+}

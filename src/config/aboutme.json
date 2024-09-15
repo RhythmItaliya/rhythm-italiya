@@ -1,0 +1,42 @@
+{
+    "Name": "Rhythm Italiya",
+    "Role": "Mern Stack Developer",
+    "Age": 21,
+    "Gender": "Male",
+    "Address": "Surat, Gujarat, India",
+    "Phone": "+91 9265748502",
+    "Email": "ritaliya2003@gmail.com",
+    "Language": [
+        "English",
+        "Hindi",
+        "Gujarati"
+    ],
+    "Introduction": "I'm a passionate fullstack web developer from India. As a web developer, my goal is to bring ideas to life through thoughtful and impactful web applications, creating memorable experiences for users.",
+    "links": [
+        {
+            "name": "About",
+            "to": "about"
+        },
+        {
+            "name": "Skills",
+            "to": "skills"
+        },
+        {
+            "name": "Projects",
+            "to": "projects"
+        },
+        {
+            "name": "Education",
+            "to": "education"
+        },
+        {
+            "name": "Contact",
+            "to": "contact"
+        }
+    ],
+    "socialLinks": {
+        "facebook": "#",
+        "twitter": "#",
+        "github": "https://github.com/rhythmitaliya"
+    }
+}

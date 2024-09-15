@@ -1,0 +1,16 @@
+{
+    "Email": "ritaliya2003@gmail.com",
+    "Phone": "+919265748502",
+    "Address": "Surat, Gujarat, India",
+    "Introduction": "I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.",
+    "FormLabels": {
+        "Email": "Your email",
+        "Subject": "Subject",
+        "Message": "Your message"
+    },
+    "FormPlaceholders": {
+        "Email": "xyz@gmail.com",
+        "Subject": "subject...",
+        "Message": "Leave a message..."
+    }
+}
