@@ -18,7 +18,7 @@ const HomeAbout = () => {
 
                         <h5 className="mt-5 mb-7 md:mb-8 lg:mb-10 text-lg lg:text-xl font-popins text-gray-400">{aboutMe.Introduction}</h5>
 
-                        <a href='https://drive.google.com/file/d/17AixQJplV7eqQ-S1EMkkDzm-IcQ89TSw/view?usp=drive_link' target="blank" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#00A4E6] rounded-xl group">
+                        <a href={aboutMe.Resume.drive} target="blank" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#00A4E6] rounded-xl group">
                             <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-[#0082B6] rounded group-hover:-mr-4 group-hover:-mt-4">
                                 <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -27,7 +27,7 @@ const HomeAbout = () => {
                             <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Download Resume</span>
 
                         </a>
-                        <a href="https://www.linkedin.com/in/hriday-paul-65aabb272/" target="blank" className="relative mx-5 px-5 py-2 font-medium text-white group">
+                        <a href={aboutMe.socialLinks.linkedin} target="blank" className="relative mx-5 px-5 py-2 font-medium text-white group">
                             <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#008dd3] group-hover:bg-[#0076B3] group-hover:skew-x-12"></span>
                             <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#0076B3] group-hover:bg-[#008dd3] group-hover:-skew-x-12"></span>
                             <span className="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#008dd3] -rotate-12"></span>

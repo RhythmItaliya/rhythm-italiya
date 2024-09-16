@@ -1,20 +1,28 @@
 {
     "institutions": [
         {
-            "name": "Cumilla Polytechnic Institute, Cumilla",
-            "logo": "/images/politechnic.jpeg",
-            "course": "Computer Technology (CMT)",
-            "duration": "June 2020 - August 2024 (running...)",
-            "description": "I'm currently studying a Diploma in Engineering in Computer Science. We have already covered basic data structures, algorithms, object-oriented",
-            "grade": null
+            "name": "SDJ International College",
+            "link": "https://www.sdjic.org/",
+            "course": "Bachelor of Computer Applications",
+            "duration": "June 2021 - July 2024",
+            "description": "I Completed a Bachelor’s degree in Computer Applications at SDJ International College, where I gained a solid academic background in computing through a well-rounded curriculum and practical experiences.",
+            "grade": "First Class"
         },
         {
-            "name": "Nimsar High School, Cumilla",
-            "logo": "/images/school.jpeg",
-            "course": "VI - X (science)",
-            "duration": "January 2015 - February 2020",
-            "description": "I completed my class 6 to 10 education at Nimsar High School, Nimsar, Cumilla. Where I studied science in class 9th and 10th.",
-            "grade": "4.78 / 5"
+            "name": "Panini IT Academy",
+            "link": "https://paniniitacademy.com/",
+            "course": "Web Design",
+            "duration": "May 2022 - March 2023",
+            "description": "I Completed a certificate course in Web Design at Panini IT Academy, gaining a thorough understanding of front-end web development and responsive design through hands-on projects.",
+            "grade": "A+"
+        },
+        {
+            "name": "Kingcoda Education",
+            "link": "https://www.kingcoda.com/",
+            "course": "MERN Stack Developer",
+            "duration": "April 2023 - December 2023",
+            "description": "Completed a full-stack developer program specializing in the MERN stack at Kingcoda Education, gaining hands-on experience in building web applications using modern technologies and development practices.",
+            "grade": "A+"
         }
     ]
 }

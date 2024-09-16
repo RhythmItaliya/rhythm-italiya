@@ -1,10 +1,12 @@
 import SingleSkill from "@/Components/Ui/SingleSkill/SingleSkill";
 import Image from "next/image";
-import { SiRedux, SiMysql } from "react-icons/si";
-import { FaGithub, FaFigma, FaNodeJs } from "react-icons/fa";
+import { SiRedux, SiMysql, SiSequelize, SiJquery } from "react-icons/si";
+import { FaGithub, FaFigma, FaNodeJs, FaAws } from "react-icons/fa";
 import { SiExpress, SiTypescript, SiTailwindcss, SiJavascript, SiFirebase, SiMongodb, SiGit, SiVisualstudiocode, SiReact } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
 import { Tooltip } from "antd";
+import { DiDocker } from "react-icons/di";
+import { BsBootstrap } from "react-icons/bs";
 
 const Skills = () => {
     return (
@@ -149,6 +151,50 @@ const Skills = () => {
                                                 <BiLogoNetlify className="text-[#3DB7B6] text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
+                                    </div>
+
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
+                                        <Tooltip color="#0EA5E9" title="AWS">
+                                            <SingleSkill>
+                                                <div className="h-4 md:h-8 w-4 md:w-8">
+                                                    <FaAws className="text-yellow-300 text-[16px] md:text-[32px]" />
+                                                </div>
+                                            </SingleSkill>
+                                        </Tooltip>
+
+                                        <Tooltip color="#0EA5E9" title="Docker">
+                                            <SingleSkill>
+                                                <div className="h-4 md:h-8 w-4 md:w-8">
+                                                    <DiDocker className="text-[#29A3F1] text-[16px] md:text-[32px]" />
+                                                </div>
+                                            </SingleSkill>
+                                        </Tooltip>
+
+                                        <Tooltip color="#0EA5E9" title="Sequelize">
+                                            <SingleSkill>
+                                                <div className="h-4 md:h-8 w-4 md:w-8">
+                                                    <SiSequelize className="text-green-400 text-[16px] md:text-[32px]" />
+                                                </div>
+                                            </SingleSkill>
+                                        </Tooltip>
+
+
+                                        <Tooltip color="#0EA5E9" title="Bootstrap">
+                                            <SingleSkill>
+                                                <div className="h-4 md:h-8 w-4 md:w-8">
+                                                    <BsBootstrap className="text-blue-400 text-[16px] md:text-[32px]" />
+                                                </div>
+                                            </SingleSkill>
+                                        </Tooltip>
+
+                                        <Tooltip color="#0EA5E9" title="Jquery">
+                                            <SingleSkill>
+                                                <div className="h-4 md:h-8 w-4 md:w-8">
+                                                    <SiJquery className="text-blue-400 text-[16px] md:text-[32px]" />
+                                                </div>
+                                            </SingleSkill>
+                                        </Tooltip>
+
                                     </div>
                                 </div>
                             </div>

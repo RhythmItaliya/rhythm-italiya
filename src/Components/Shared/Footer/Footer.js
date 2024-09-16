@@ -1,6 +1,6 @@
 'use client'
 import { Link } from "react-scroll";
-import { BiLogoFacebook } from 'react-icons/bi';
+import { BiLogoFacebook, BiLogoLinkedin, } from 'react-icons/bi';
 import { BsTwitter } from 'react-icons/bs';
 import { DiGithubBadge } from 'react-icons/di';
 import aboutMe from "@/config/aboutme.json";
@@ -14,7 +14,7 @@ const Footer = () => {
                     <h2 className="text-center text-3xl font-popins font-bold text-[#008AC2]">{aboutMe.name}</h2>
                     <div className="mt-5 lg:mt-8">
                         <ul className="flex flex-row gap-x-7 items-center justify-center">
-                            {aboutMe.links.map((link, index) => (
+                        {aboutMe.links.slice(0, 4).map((link, index) => (
                                 <li key={index} className="text-lg lg:text-xl font-popins font-medium text-white">
                                     <Link
                                         className="cursor-pointer hover:text-[#008AC2] duration-200"
@@ -40,6 +40,9 @@ const Footer = () => {
                         </a>
                         <a href={aboutMe.socialLinks.github} target="blank" className="inline-flex items-center justify-center h-8 md:h-10 w-8 md:w-10 border border-[#008AC2] rounded-full mr-1 hover:bg-[#008AC2] hover:text-gray-300 group">
                             <DiGithubBadge className="text-xl md:text-2xl text-[#008AC2] group-hover:text-gray-300"></DiGithubBadge>
+                        </a>
+                        <a href={aboutMe.socialLinks.linkedin} target="blank" className="inline-flex items-center justify-center h-8 md:h-10 w-8 md:w-10 border border-[#008AC2] rounded-full mr-1 hover:bg-[#008AC2] hover:text-gray-300 group">
+                            <BiLogoLinkedin className="text-xl md:text-2xl text-[#008AC2] group-hover:text-gray-300"></BiLogoLinkedin>
                         </a>
                     </div>
                 </div>
