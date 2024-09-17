@@ -2,94 +2,73 @@
     "dataList1": [
         {
             "id": 0,
-            "name": "Study Table",
-            "desc": "Crafted a web-based Study Table application simplifying academic organization and task management.",
+            "name": "Social Network",
+            "desc": "Developed a fully-featured social media platform enabling users to connect, share, and interact through posts, comments, and real-time messaging.",
             "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411814/docs/kprfdksscupycl0kvatx.png",
             "skills": [
-                "Tailwind",
-                "React",
-                "Type script",
+                "React Js",
+                "Node Js",
                 "Redux",
-                "Firebase",
                 "Express",
-                "Mongodb"
+                "Socket-io",
+                "Bootstrap"
             ],
-            "live": "https://study-table.netlify.app",
-            "code": "https://github.com/Hriday-paul/study-tracker"
+            "live": "https://github.com/RhythmItaliya/social_media",
+            "code": "https://github.com/RhythmItaliya/social_media_db"
         },
         {
             "id": 1,
-            "name": "Study Table",
-            "desc": "Crafted a web-based Study Table application simplifying academic organization and task management.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411814/docs/kprfdksscupycl0kvatx.png",
+            "name": "Invoices Management",
+            "desc": "A powerful tool for managing and creating invoices efficiently.",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726560442/rhythm/t6kfwkkybtiqo6hd3w2x.png",
             "skills": [
-                "Tailwind",
                 "React",
+                "Tailwind",
                 "Type script",
                 "Redux",
                 "Firebase",
-                "Express",
-                "Mongodb"
+                "Express"
             ],
-            "live": "https://study-table.netlify.app",
-            "code": "https://github.com/Hriday-paul/study-tracker"
+            "live": "https://www.rhyri.com",
+            "code": "https://github.com/RhythmItaliya/rhyri-invoice"
         }
     ],
     "dataList2": [
         {
-            "id": 2,
-            "name": "Diagnostic Center",
-            "desc": "Developed a user-friendly web based diagnostic center management system website for efficient appointment booking and result tracking.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712410648/docs/ns41zajpflhotjef6nmq.png",
+            "id": 3,
+            "name": "E-commerce",
+            "desc": "An E-commerce platform enabling users to browse products, manage their carts, and securely complete payments through an integrated payment gateway. Built with modern web technologies for smooth user experience and responsive design.",
+            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411973/docs/wmsfxw4rodj6gkn6ular.png",
             "skills": [
+                "React",
+                "TypeScript",
                 "Tailwind",
-                "Next Js",
-                "Next Auth",
-                "Type Script",
-                "Firebase",
+                "Redux",
                 "Express",
-                "Mongodb"
+                "MongoDB"
             ],
-            "live": "https://daigo-bd.vercel.app",
-            "code": "https://github.com/Hriday-paul/daigo-bd"
+            "live": "https://github.com/RhythmItaliya/ecommers-payment-gatway",
+            "code": "https://github.com/RhythmItaliya/ecommers-payment-gatway"
         },
         {
-            "id": 3,
-            "name": "Diagnostic Center",
-            "desc": "Developed a user-friendly web based diagnostic center management system website for efficient appointment booking and result tracking.",
+            "id": 4,
+            "name": "Restaurant Order Management",
+            "desc": "Built a comprehensive restaurant order management system that streamlines order placement, processing, and tracking. The system allows customers to place orders online, and restaurant staff to manage them efficiently.",
             "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712410648/docs/ns41zajpflhotjef6nmq.png",
             "skills": [
-                "Tailwind",
-                "Next Js",
-                "Next Auth",
-                "Type Script",
-                "Firebase",
-                "Express",
-                "Mongodb"
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "AJAX",
+                "Node.js",
+                "Express.js",
+                "MongoDB"
             ],
-            "live": "https://daigo-bd.vercel.app",
-            "code": "https://github.com/Hriday-paul/daigo-bd"
+            "live": "https://github.com/RhythmItaliya/restodb",
+            "code": "https://github.com/RhythmItaliya/orderul"
         }
     ],
     "dataList3": [
-        {
-            "id": 4,
-            "name": "Chat Application",
-            "desc": "This chat application facilitates real-time communication through text, video, connecting users across various devices and platforms.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411973/docs/wmsfxw4rodj6gkn6ular.png",
-            "skills": [
-                "Tailwind",
-                "React",
-                "Type-script",
-                "Redux",
-                "Firebase",
-                "Express",
-                "Mongodb",
-                "Socket-io"
-            ],
-            "live": "https://message-friend.netlify.app",
-            "code": "https://github.com/Hriday-paul/Chat-web"
-        },
         {
             "id": 5,
             "name": "Chat Application",

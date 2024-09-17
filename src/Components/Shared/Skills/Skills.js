@@ -1,7 +1,7 @@
 import SingleSkill from "@/Components/Ui/SingleSkill/SingleSkill";
 import Image from "next/image";
-import { SiRedux, SiMysql, SiSequelize, SiJquery } from "react-icons/si";
-import { FaGithub, FaFigma, FaNodeJs, FaAws } from "react-icons/fa";
+import { SiRedux, SiMysql, SiSequelize, SiJquery, SiNextdotjs } from "react-icons/si";
+import { FaGithub, FaNodeJs, FaAws, FaLinux } from "react-icons/fa";
 import { SiExpress, SiTypescript, SiTailwindcss, SiJavascript, SiFirebase, SiMongodb, SiGit, SiVisualstudiocode, SiReact } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
 import { Tooltip } from "antd";
@@ -20,7 +20,12 @@ const Skills = () => {
                         <div className="py-8">
                             <div className="mx-auto px-6 max-w-6xl text-gray-500">
                                 <div className="mt-12 relative w-fit h-fit sm:mx-auto sm:px-0 -mx-6 px-6 overflow-x-auto">
-                                    <div className="mb-3 flex w-fit mx-auto gap-3 text-gray-950 dark:text-white">
+
+                                    {/* Frontend Skills */}
+                                    <div className="mb-3 mt-3 text-center text-white">
+                                        <h3 className="text-xl font-bold">Frontend</h3>
+                                    </div>
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
                                         <Tooltip color="#0EA5E9" title="Html">
                                             <SingleSkill>
                                                 <div className="h-4 md:h-8 w-4 md:w-8 relative">
@@ -35,95 +40,113 @@ const Skills = () => {
                                                 </div>
                                             </SingleSkill>
                                         </Tooltip>
-
+                                        <Tooltip color="#0EA5E9" title="Bootstrap">
+                                            <SingleSkill>
+                                                <BsBootstrap className="text-blue-400 text-[16px] md:text-[32px]" />
+                                            </SingleSkill>
+                                        </Tooltip>
                                         <Tooltip color="#0EA5E9" title="Tailwind">
                                             <SingleSkill>
                                                 <SiTailwindcss className="text-[16px] md:text-[32px] text-[#14C1B7]" />
                                             </SingleSkill>
                                         </Tooltip>
-
                                     </div>
-                                    <div className="flex w-fit mx-auto gap-3">
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
+                                        <Tooltip color="#0EA5E9" title="jQuery">
+                                            <SingleSkill>
+                                                <SiJquery className="text-blue-400 text-[16px] md:text-[32px]" />
+                                            </SingleSkill>
+                                        </Tooltip>
                                         <Tooltip color="#0EA5E9" title="Javascript">
                                             <SingleSkill>
                                                 <SiJavascript className="text-[16px] md:text-[32px] text-yellow-300" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="React">
+                                        <Tooltip color="#0EA5E9" title="React Js">
                                             <SingleSkill>
                                                 <SiReact className="text-[16px] md:text-[32px] text-sky-400" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Type script">
+                                        <Tooltip color="#0EA5E9" title="TypeScript">
                                             <SingleSkill>
                                                 <SiTypescript className="text-[16px] md:text-[32px] text-blue-500" />
                                             </SingleSkill>
                                         </Tooltip>
-
                                         <Tooltip color="#0EA5E9" title="Redux">
                                             <SingleSkill>
                                                 <SiRedux className="text-[16px] md:text-[32px] text-indigo-400"></SiRedux>
                                             </SingleSkill>
                                         </Tooltip>
 
+                                        <Tooltip color="#0EA5E9" title="Next Js">
+                                            <SingleSkill>
+                                                <SiNextdotjs className="text-[16px] md:text-[32px] text-gray-400"></SiNextdotjs>
+                                            </SingleSkill>
+                                        </Tooltip>
 
                                     </div>
-                                    <div className="my-3 flex w-fit mx-auto gap-3">
+
+                                    {/* Backend Skills */}
+                                    <div className="mb-3 mt-3 text-center text-white">
+                                        <h3 className="text-xl font-bold">Backend</h3>
+                                    </div>
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
+                                        <Tooltip color="#0EA5E9" title="MySQL">
+                                            <SingleSkill>
+                                                <SiMysql className="text-[20px] md:text-[40px] text-white"></SiMysql>
+                                            </SingleSkill>
+                                        </Tooltip>
+                                        <Tooltip color="#0EA5E9" title="MongoDB">
+                                            <SingleSkill>
+                                                <SiMongodb className="text-green-500 text-[16px] md:text-[32px]" />
+                                            </SingleSkill>
+                                        </Tooltip>
                                         <Tooltip color="#0EA5E9" title="Firebase">
                                             <SingleSkill>
                                                 <SiFirebase className="text-[16px] md:text-[32px] text-yellow-400" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Node js">
+                                    </div>
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
+                                        <Tooltip color="#0EA5E9" title="Node.js">
                                             <SingleSkill>
                                                 <FaNodeJs className="text-green-400 text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Express js">
+                                        <Tooltip color="#0EA5E9" title="Express.js">
                                             <SingleSkill>
                                                 <SiExpress className="text-white text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Mongodb">
+                                        <Tooltip color="#0EA5E9" title="Sequelize">
                                             <SingleSkill>
-                                                <SiMongodb className="text-green-500 text-[16px] md:text-[32px]" />
+                                                <SiSequelize className="text-green-400 text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
+                                    </div>
 
-                                        <Tooltip color="#0EA5E9" title="Next Js">
-                                            <SingleSkill>
-                                                <div className="h-4 md:h-8 w-4 md:w-8">
-                                                    <Image fill={true} src='https://res.cloudinary.com/devlj6p7h/image/upload/v1714762396/docs/lbuwdez6ukgbqzggopzc.png' alt="next js logo" />
-                                                </div>
-                                            </SingleSkill>
-                                        </Tooltip>
-
+                                    {/* Tools & Others */}
+                                    <div className="mb-3 mt-3 text-center text-white">
+                                        <h3 className="text-xl font-bold">Tools & Others</h3>
                                     </div>
                                     <div className="flex w-fit mx-auto gap-3">
-
-                                        <Tooltip color="#0EA5E9" title="Github">
+                                        <Tooltip color="#0EA5E9" title="GitHub">
                                             <SingleSkill>
                                                 <FaGithub className="text-white text-[16px] md:text-[32px]"></FaGithub>
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Mysql">
-                                            <SingleSkill>
-                                                <SiMysql className="text-[20px] md:text-[40px] text-white"></SiMysql>
-                                            </SingleSkill>
-                                        </Tooltip>
-
                                         <Tooltip color="#0EA5E9" title="Git">
                                             <SingleSkill>
                                                 <SiGit className="text-red-500 text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-
+                                    </div>
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
+                                        <Tooltip color="#0EA5E9" title="AWS">
+                                            <SingleSkill>
+                                                <FaAws className="text-yellow-300 text-[16px] md:text-[32px]" />
+                                            </SingleSkill>
+                                        </Tooltip>
                                         <Tooltip color="#0EA5E9" title="Vercel">
                                             <SingleSkill>
                                                 <div className="h-4 md:h-8 w-4 md:w-8">
@@ -131,70 +154,28 @@ const Skills = () => {
                                                 </div>
                                             </SingleSkill>
                                         </Tooltip>
-
-                                    </div>
-                                    <div className="mt-3 flex w-fit mx-auto gap-3">
-                                        <Tooltip color="#0EA5E9" title="Figma">
-                                            <SingleSkill>
-                                                <FaFigma className="text-white text-[16px] md:text-[32px]"></FaFigma>
-                                            </SingleSkill>
-                                        </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Vs code">
-                                            <SingleSkill>
-                                                <SiVisualstudiocode className="text-[#29A3F1] text-[16px] md:text-[32px]" />
-                                            </SingleSkill>
-                                        </Tooltip>
-
                                         <Tooltip color="#0EA5E9" title="Netlify">
                                             <SingleSkill>
                                                 <BiLogoNetlify className="text-[#3DB7B6] text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-                                    </div>
-
-                                    <div className="mt-3 flex w-fit mx-auto gap-3">
-                                        <Tooltip color="#0EA5E9" title="AWS">
-                                            <SingleSkill>
-                                                <div className="h-4 md:h-8 w-4 md:w-8">
-                                                    <FaAws className="text-yellow-300 text-[16px] md:text-[32px]" />
-                                                </div>
-                                            </SingleSkill>
-                                        </Tooltip>
-
                                         <Tooltip color="#0EA5E9" title="Docker">
                                             <SingleSkill>
-                                                <div className="h-4 md:h-8 w-4 md:w-8">
-                                                    <DiDocker className="text-[#29A3F1] text-[16px] md:text-[32px]" />
-                                                </div>
+                                                <DiDocker className="text-[#29A3F1] text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Sequelize">
+                                    </div>
+                                    <div className="mt-3 flex w-fit mx-auto gap-3">
+                                        <Tooltip color="#0EA5E9" title="Visual Studio Code">
                                             <SingleSkill>
-                                                <div className="h-4 md:h-8 w-4 md:w-8">
-                                                    <SiSequelize className="text-green-400 text-[16px] md:text-[32px]" />
-                                                </div>
+                                                <SiVisualstudiocode className="text-[#29A3F1] text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-
-
-                                        <Tooltip color="#0EA5E9" title="Bootstrap">
+                                        <Tooltip color="#0EA5E9" title="Linux">
                                             <SingleSkill>
-                                                <div className="h-4 md:h-8 w-4 md:w-8">
-                                                    <BsBootstrap className="text-blue-400 text-[16px] md:text-[32px]" />
-                                                </div>
+                                                <FaLinux className="text-gray-400 text-[16px] md:text-[32px]" />
                                             </SingleSkill>
                                         </Tooltip>
-
-                                        <Tooltip color="#0EA5E9" title="Jquery">
-                                            <SingleSkill>
-                                                <div className="h-4 md:h-8 w-4 md:w-8">
-                                                    <SiJquery className="text-blue-400 text-[16px] md:text-[32px]" />
-                                                </div>
-                                            </SingleSkill>
-                                        </Tooltip>
-
                                     </div>
                                 </div>
                             </div>
