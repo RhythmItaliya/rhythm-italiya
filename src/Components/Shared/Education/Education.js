@@ -27,7 +27,6 @@ const Education = () => {
                                 {institution.description} {institution.grade}
                             </div>
                             {institution.grade && <h4 className="text-sm font-popins font-bold text-gray-400 mt-2">Grade : {institution.grade}</h4>}
-
                         </div>
                     ))}
                 </div>
