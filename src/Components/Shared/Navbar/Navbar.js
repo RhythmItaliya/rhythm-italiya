@@ -2,7 +2,7 @@
 import { Link } from "react-scroll";
 import Image from "next/image";
 import Sticky from "react-stickynode";
-import logo from '@/images/logo.png'
+import Logo from '@/images/logo.png'
 import { HiOutlineMenu } from "react-icons/hi";
 import { useState } from "react";
 import { Drawer } from 'antd';
@@ -12,7 +12,7 @@ const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <Sticky top="#header" bottomBoundary="#content" innerZ={50} >
+        <Sticky top="#header" bottomBoundary="#content" innerZ={50}>
             <div className="py-2 bg-[#082231] z-50">
                 <div className="2xl:max-w-7xl max-w-6xl mx-auto">
                     <div className="flex justify-between items-center ">
@@ -26,8 +26,7 @@ const Navbar = () => {
                             duration={500}
                         >
                             <div className="flex items-center">
-                                <Image priority={false} className="h-10 w-auto md:h-12 lg:h-14" src={logo} alt="logo" />
-                                <h1 className="text-xl lg:text-2xl font-bold text-white font-popins -ml-2">Portfolio</h1>
+                                <Image priority={false} className="h-10 w-auto md:h-auto lg:h-14" src={Logo} alt="logo" />
                             </div>
                         </Link>
                         <div className="hidden md:block">
@@ -73,8 +72,7 @@ const Navbar = () => {
                         duration={500}
                     >
                         <div className="flex items-center">
-                            <Image priority={false} className="h-10 w-auto md:h-12 lg:h-14 -ml-3" src={logo} alt="logo" />
-                            <h1 className="text-xl lg:text-2xl font-bold text-white font-popins -ml-2">Portfolio</h1>
+                            <Image priority={false} className="h-10 w-auto md:h-12 lg:h-14 ml-3" src={Logo} alt="logo" />
                         </div>
                     </Link>} onClose={() => setOpen(false)
                     }
@@ -99,7 +97,6 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </Drawer>
-
             </div>
         </Sticky>
     );

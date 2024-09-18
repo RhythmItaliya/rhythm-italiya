@@ -3,8 +3,8 @@
         {
             "id": 0,
             "name": "Social Network",
-            "desc": "Developed a fully-featured social media platform enabling users to connect, share, and interact through posts, comments, and real-time messaging.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411814/docs/kprfdksscupycl0kvatx.png",
+            "desc": "A platform allowing users to connect, share, and interact through posts, comments, and real-time messaging.",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630410/Img/vqqtdscgzzj66fmzrd4j.png",
             "skills": [
                 "React Js",
                 "Node Js",
@@ -19,8 +19,8 @@
         {
             "id": 1,
             "name": "Invoices Management",
-            "desc": "A powerful tool for managing and creating invoices efficiently.",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726560442/rhythm/t6kfwkkybtiqo6hd3w2x.png",
+            "desc": "A tool for efficiently managing and creating invoices, built with modern web technologies. known as Rhyri",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630334/Img/fpcr1ibqleakqessoiaq.png",
             "skills": [
                 "React",
                 "Tailwind",
@@ -37,8 +37,8 @@
         {
             "id": 3,
             "name": "E-commerce",
-            "desc": "An E-commerce platform enabling users to browse products, manage their carts, and securely complete payments through an integrated payment gateway. Built with modern web technologies for smooth user experience and responsive design.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411973/docs/wmsfxw4rodj6gkn6ular.png",
+            "desc": "A platform for browsing products, managing carts, and securely completing payments via a payment gateway.",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630468/Img/vpbtzhtud7exyd2bqao4.png",
             "skills": [
                 "React",
                 "TypeScript",
@@ -52,9 +52,9 @@
         },
         {
             "id": 4,
-            "name": "Restaurant Order Management",
-            "desc": "Built a comprehensive restaurant order management system that streamlines order placement, processing, and tracking. The system allows customers to place orders online, and restaurant staff to manage them efficiently.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712410648/docs/ns41zajpflhotjef6nmq.png",
+            "name": "Order Management",
+            "desc": "A system for online order placement, processing, and tracking, helping restaurants manage orders efficiently.",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630595/Img/vgvhrito09adpvif3knm.png",
             "skills": [
                 "HTML",
                 "CSS",
@@ -72,8 +72,8 @@
         {
             "id": 5,
             "name": "Chat Application",
-            "desc": "This chat application facilitates real-time communication through text, video, connecting users across various devices and platforms.",
-            "photo": "https://res.cloudinary.com/devlj6p7h/image/upload/v1712411973/docs/wmsfxw4rodj6gkn6ular.png",
+            "desc": "A real-time chat application supporting text and video communication across devices and platforms.",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630639/Img/ul1taspz6a6hzbndzaip.png",
             "skills": [
                 "Tailwind",
                 "React",
