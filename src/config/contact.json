@@ -9,7 +9,7 @@
         "Message": "Your message"
     },
     "FormPlaceholders": {
-        "Email": "xyz@gmail.com",
+        "Email": "Enter Your email...",
         "Subject": "subject...",
         "Message": "Leave a message..."
     }

@@ -1,5 +1,4 @@
 'use client'
-import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { MdOutlineEmail, MdPhoneInTalk } from "react-icons/md";
@@ -10,20 +9,34 @@ const Contact = () => {
     const [isPending, setPending] = useState(false);
 
     const handleContact = (e) => {
-        setPending(true);
         e.preventDefault();
+        setPending(true);
         const form = e.target;
 
-        emailjs.sendForm('service_ocie8rf', 'template_uxpjfxe', form, 'vMsnna1LkCPRnGxAz')
-            .then(() => {
-                toast.success('Send email successfully');
-                form.reset();
-                setPending(false);
-            }, () => {
-                toast.error('Send email failed, try again.');
+        const formData = new FormData(form);
+
+        fetch('https://formspree.io/f/xanwgyko', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                Accept: 'application/json',
+            },
+        })
+            .then((response) => {
+                if (response.ok) {
+                    toast.success('Email sent successfully');
+                    form.reset();
+                } else {
+                    toast.error('Failed to send email, please try again.');
+                }
+            })
+            .catch((error) => {
+                toast.error('Failed to send email, please try again.');
+            })
+            .finally(() => {
                 setPending(false);
             });
-    }
+    };
 
     return (
         <div className="z-40 -mt-16" id="contact">
@@ -49,14 +62,14 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <form data-aos="zoom-in-up" action="#" className="space-y-5" onSubmit={handleContact}>
+                        <form data-aos="zoom-in-up" className="space-y-5" onSubmit={handleContact}>
                             <div>
                                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-300">{contactInfo.FormLabels.Email}</label>
-                                <input type="email" id="email" name='email' className="shadow-sm border-2 outline-none focus:border-gray-400 text-sm rounded-lg block w-full p-2.5 bg-white/20 border-gray-600 placeholder-gray-400 text-white shadow-sm-light" placeholder={contactInfo.FormPlaceholders.Email} required />
+                                <input type="email" id="email" name='email' className="shadow-sm border-2 outline-none focus:border-gray-400 text-sm rounded-lg block w-full p-2.5 bg-white/20 border-gray-600 placeholder-gray-400 text-white" placeholder={contactInfo.FormPlaceholders.Email} required />
                             </div>
                             <div>
                                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-300">{contactInfo.FormLabels.Subject}</label>
-                                <input type="text" id="subject" name="subject" className="shadow-sm border-2 outline-none focus:border-gray-400 text-sm rounded-lg block w-full p-2.5 bg-white/20 border-gray-600 placeholder-gray-400 text-white shadow-sm-light" placeholder={contactInfo.FormPlaceholders.Subject} required />
+                                <input type="text" id="subject" name="subject" className="shadow-sm border-2 outline-none focus:border-gray-400 text-sm rounded-lg block w-full p-2.5 bg-white/20 border-gray-600 placeholder-gray-400 text-white" placeholder={contactInfo.FormPlaceholders.Subject} required />
                             </div>
                             <div className="sm:col-span-2">
                                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-300">{contactInfo.FormLabels.Message}</label>
@@ -70,7 +83,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <Toaster></Toaster>
+                <Toaster />
             </section>
         </div>
     );

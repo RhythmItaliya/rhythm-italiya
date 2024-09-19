@@ -14,7 +14,7 @@ const Footer = () => {
                     <h2 className="text-center text-3xl font-popins font-bold text-[#008AC2]">{aboutMe.name}</h2>
                     <div className="mt-5 lg:mt-8">
                         <ul className="flex flex-row gap-x-7 items-center justify-center">
-                        {aboutMe.links.slice(0, 4).map((link, index) => (
+                            {aboutMe.links.slice(0, 4).map((link, index) => (
                                 <li key={index} className="text-lg lg:text-xl font-popins font-medium text-white">
                                     <Link
                                         className="cursor-pointer hover:text-[#008AC2] duration-200"
