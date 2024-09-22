@@ -35,7 +35,7 @@
     ],
     "dataList2": [
         {
-            "id": 3,
+            "id": 2,
             "name": "E-commerce",
             "desc": "A platform for browsing products, managing carts, and securely completing payments via a payment gateway.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630468/Img/vpbtzhtud7exyd2bqao4.png",
@@ -51,7 +51,7 @@
             "code": "https://github.com/RhythmItaliya/ecommers-payment-gatway"
         },
         {
-            "id": 4,
+            "id": 3,
             "name": "Order Management",
             "desc": "A system for online order placement, processing, and tracking, helping restaurants manage orders efficiently.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630595/Img/vgvhrito09adpvif3knm.png",
@@ -70,7 +70,7 @@
     ],
     "dataList3": [
         {
-            "id": 5,
+            "id": 4,
             "name": "Chat Application",
             "desc": "A real-time chat application supporting text and video communication across devices and platforms.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630639/Img/ul1taspz6a6hzbndzaip.png",
@@ -86,6 +86,22 @@
             ],
             "live": "https://message-friend.netlify.app",
             "code": "https://github.com/rhythmItaliya/Chat-web"
+        },
+        {
+            "id": 5,
+            "name": "Send OTP",
+            "desc": "Web app that can send an OTP (via SMS) to a list of contacts, one at a time. (assignment project)",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726995312/Img/vsfr8um0l6swkzuixpta.png",
+            "skills": [
+                "Mongodb",
+                "Node Js",
+                "Twilio SMS",
+                "Express",
+                "Tailwind",
+                "Ejs"
+            ],
+            "live": "https://sms-otp-tau.vercel.app",
+            "code": "https://github.com/RhythmItaliya/sms-otp"
         }
     ]
 }
