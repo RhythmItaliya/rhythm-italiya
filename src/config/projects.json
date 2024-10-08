@@ -2,7 +2,7 @@
     "dataList1": [
         {
             "id": 0,
-            "name": "Social Network",
+            "name": "Social Networking Web Application",
             "desc": "A platform allowing users to connect, share, and interact through posts, comments, and real-time messaging.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630410/Img/vqqtdscgzzj66fmzrd4j.png",
             "skills": [
@@ -18,7 +18,7 @@
         },
         {
             "id": 1,
-            "name": "Invoices Management",
+            "name": "Automated Invoice Management System",
             "desc": "A tool for efficiently managing and creating invoices, built with modern web technologies. known as Rhyri",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630334/Img/fpcr1ibqleakqessoiaq.png",
             "skills": [
@@ -36,7 +36,7 @@
     "dataList2": [
         {
             "id": 2,
-            "name": "E-commerce",
+            "name": "E-commerce (Payment Gateway)",
             "desc": "A platform for browsing products, managing carts, and securely completing payments via a payment gateway.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630468/Img/vpbtzhtud7exyd2bqao4.png",
             "skills": [
@@ -45,14 +45,15 @@
                 "Tailwind",
                 "Redux",
                 "Express",
-                "MongoDB"
+                "MongoDB",
+                "Stripe"
             ],
             "live": "https://github.com/RhythmItaliya/ecommers-payment-gatway",
             "code": "https://github.com/RhythmItaliya/ecommers-payment-gatway"
         },
         {
             "id": 3,
-            "name": "Order Management",
+            "name": "Restaurant Order Workflow System",
             "desc": "A system for online order placement, processing, and tracking, helping restaurants manage orders efficiently.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630595/Img/vgvhrito09adpvif3knm.png",
             "skills": [
@@ -71,7 +72,7 @@
     "dataList3": [
         {
             "id": 4,
-            "name": "Chat Application",
+            "name": "Real-time Messaging Application",
             "desc": "A real-time chat application supporting text and video communication across devices and platforms.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630639/Img/ul1taspz6a6hzbndzaip.png",
             "skills": [
@@ -89,7 +90,7 @@
         },
         {
             "id": 5,
-            "name": "Send OTP",
+            "name": "Secure OTP Delivery System for Contact Verification",
             "desc": "Web app that can send an OTP (via SMS) to a list of contacts, one at a time. (assignment project)",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726995312/Img/vsfr8um0l6swkzuixpta.png",
             "skills": [
