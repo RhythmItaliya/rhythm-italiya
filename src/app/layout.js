@@ -4,14 +4,16 @@ import ScrollAnim from "@/Components/Ui/ScrollAnim/ScrollAnim";
 export const metadata = {
   title: "Rhythm Italiya",
   description: "Rhythm Italiya - Full Stack Developer specializing in modern web technologies and creating dynamic, user-friendly applications.",
-
   url: "https://rhythmitaliya.com",
   image: "https://res.cloudinary.com/ds9ufpxom/image/upload/v1727323304/Img/nruph7xbowtmlxslzacv.png",
   siteName: "Rhythm Italiya Portfolio",
   twitterHandle: "@rhythmitaliya",
   instagram: "https://instagram.com/rhythmitaliya",
   github: "https://github.com/rhythmitaliya",
-  linkedin: "https://linkedin.com/in/rhythmitaliya"
+  linkedin: "https://linkedin.com/in/rhythmitaliya",
+  keywords: "Rhythm Italiya, Full Stack Developer, Web Development, MERN Stack Developer,Node.js Developer, React.js Developer",
+  robots: "index, follow",
+  author: "Rhythm Italiya"
 };
 
 export default function RootLayout({ children }) {
@@ -19,8 +21,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <head>
+        <meta charSet="UTF-8" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="robots" content={metadata.robots} />
+        <meta name="author" content={metadata.author} />
 
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
@@ -56,7 +62,7 @@ export default function RootLayout({ children }) {
             "image": metadata.image
           })}
         </script>
-        
+
       </head>
 
       <body className="min-h-screen bg-[#082231]">
