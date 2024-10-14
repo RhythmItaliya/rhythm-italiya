@@ -10,10 +10,9 @@ const HomeAbout = () => {
 
                     <div data-aos="zoom-in-right" className="order-2 md:order-1 text-center md:text-left">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-popins mb-4 md:mb-5">{`Hi, I'm`}</h1>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-popins mb-4 md:mb-5">{aboutMe.Name}</h1>
-                        <h1 className="inline font-popins text-white text-2xl lg:text-3xl font-bold">{`I'm a `}</h1>
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold font-popins mb-4 md:mb-5">{aboutMe.Name}</h2>
+                        <h3 className="inline font-popins text-white text-2xl lg:text-3xl font-bold">{`I'm a `}</h3>
 
-                        {/* Typer animation is here  */}
                         <TypeAnim />
 
                         <h5 className="mt-5 mb-7 md:mb-8 lg:mb-10 text-lg lg:text-xl font-popins text-gray-400">{aboutMe.Introduction}</h5>

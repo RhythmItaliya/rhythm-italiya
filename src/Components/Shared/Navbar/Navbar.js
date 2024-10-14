@@ -19,7 +19,7 @@ const Navbar = () => {
                         <Link
                             className="cursor-pointer hover:text-purple-600 duration-200"
                             activeClass="active"
-                            to="about"
+                            to={aboutMe.links[0].to}
                             spy={true}
                             smooth={true}
                             offset={50}
@@ -69,7 +69,7 @@ const Navbar = () => {
                         onClick={() => setOpen(false)}
                         className="cursor-pointer hover:text-purple-600 duration-200"
                         activeClass="active"
-                        to="about"
+                        to={aboutMe.links[0].to}
                         spy={true}
                         smooth={true}
                         offset={50}

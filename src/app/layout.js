@@ -28,6 +28,8 @@ export default function RootLayout({ children }) {
         <meta name="robots" content={metadata.robots} />
         <meta name="author" content={metadata.author} />
 
+        <link rel="canonical" href={metadata.url} />
+
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:url" content={metadata.url} />
@@ -45,8 +47,9 @@ export default function RootLayout({ children }) {
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={metadata.image} />
 
-        <script type="application/ld+json">
-          {JSON.stringify({
+
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Rhythm Italiya",
@@ -60,9 +63,9 @@ export default function RootLayout({ children }) {
             ],
             "description": metadata.description,
             "image": metadata.image
-          })}
-        </script>
-
+          })
+        }} />
+        
       </head>
 
       <body className="min-h-screen bg-[#082231]">
