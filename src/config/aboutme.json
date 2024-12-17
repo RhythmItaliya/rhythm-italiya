@@ -30,6 +30,10 @@
             "to": "education"
         },
         {
+            "name": "Experience",
+            "to": "experience"
+        },
+        {
             "name": "Contact",
             "to": "contact"
         }

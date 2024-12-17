@@ -2,6 +2,24 @@
     "dataList1": [
         {
             "id": 0,
+            "name": "Stokull - Stock Market Course Platform",
+            "desc": "Platform for selling stock market courses and software.",
+            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1734442355/Img/a5zf8gxiv29vivif1mur.jpg",
+            "skills": [
+                "TypeScript",
+                "Node Js",
+                "MongoDB",
+                "Redux",
+                "Express",
+                "SCSS",
+                "HTML"
+            ],
+            "live": "https://www.stokull.com",
+            "code": "https://github.com/RhythmItaliya/online-courses-education-client",
+            "profession": "Stock Market Course Seller"
+        },
+        {
+            "id": 1,
             "name": "Social Networking Web Application",
             "desc": "A platform allowing users to connect, share, and interact through posts, comments, and real-time messaging.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630410/Img/vqqtdscgzzj66fmzrd4j.png",
@@ -17,7 +35,7 @@
             "code": "https://github.com/RhythmItaliya/social_media_db"
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "Automated Invoice Management System",
             "desc": "A tool for efficiently managing and creating invoices, built with modern web technologies. known as Rhyri",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630334/Img/fpcr1ibqleakqessoiaq.png",
@@ -35,7 +53,7 @@
     ],
     "dataList2": [
         {
-            "id": 2,
+            "id": 3,
             "name": "E-commerce (Payment Gateway)",
             "desc": "A platform for browsing products, managing carts, and securely completing payments via a payment gateway.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630468/Img/vpbtzhtud7exyd2bqao4.png",
@@ -52,7 +70,7 @@
             "code": "https://github.com/RhythmItaliya/ecommers-payment-gatway"
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Restaurant Order Workflow System",
             "desc": "A system for online order placement, processing, and tracking, helping restaurants manage orders efficiently.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630595/Img/vgvhrito09adpvif3knm.png",
@@ -71,7 +89,7 @@
     ],
     "dataList3": [
         {
-            "id": 4,
+            "id": 5,
             "name": "Real-time Messaging Application",
             "desc": "A real-time chat application supporting text and video communication across devices and platforms.",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630639/Img/ul1taspz6a6hzbndzaip.png",
@@ -89,7 +107,7 @@
             "code": "https://github.com/rhythmItaliya/Chat-web"
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Secure OTP Delivery System for Contact Verification",
             "desc": "Web app that can send an OTP (via SMS) to a list of contacts, one at a time. (assignment project)",
             "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726995312/Img/vsfr8um0l6swkzuixpta.png",

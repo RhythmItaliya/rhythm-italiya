@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 
 const RoutingTab = () => {
     const rout = usePathname();
-    
+
     return (
         <div className="flex justify-center items-center">
             <ul className="flex justify-between md:justify-center items-center gap-x-5 fixed bottom-0 md:bottom-5 bg-[#00ADF5] md:rounded-full py-2 px-4 text-center w-full md:w-auto z-40">
@@ -24,6 +24,9 @@ const RoutingTab = () => {
                     <GiSkills className="text-xl text-white"></GiSkills>
                 </Link>
                 <Link href='/education' className={`p-2 rounded-full text-white cursor-pointer ${rout == '/education' ? 'bg-[#0082B6]' : ''}`}>
+                    <PiStudentDuotone className="text-xl text-white"></PiStudentDuotone>
+                </Link>
+                <Link href='/experience' className={`p-2 rounded-full text-white cursor-pointer ${rout == '/experience' ? 'bg-[#0082B6]' : ''}`}>
                     <PiStudentDuotone className="text-xl text-white"></PiStudentDuotone>
                 </Link>
                 <Link href='/contact' className={`p-2 rounded-full text-white cursor-pointer ${rout == '/contact' ? 'bg-[#0082B6]' : ''}`}>

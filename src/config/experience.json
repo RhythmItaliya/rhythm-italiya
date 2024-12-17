@@ -1,0 +1,21 @@
+{
+    "experience": [
+        {
+            "title": "Freelance Developer",
+            "company": "Self-Employed",
+            "location": "Surat,Ahmedabad,Gandhinagar",
+            "type": "Remote",
+            "duration": "January 2023 - Present (2 year)",
+            "description": "Providing freelance web development services, specializing in front-end and back-end technologies, delivering optimized, scalable, and secure applications to clients."
+        },
+        {
+            "title": "Intern",
+            "company": "Alofa",
+            "link": "https://www.alofa.shop",
+            "location": "Australia",
+            "type": "Remote",
+            "duration": "October 2024 - Present",
+            "description": "Currently interning at Alofa, gaining practical experience in modern development processes and contributing to real-world projects."
+        }
+    ]
+}

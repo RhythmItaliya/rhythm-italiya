@@ -1,5 +1,6 @@
 import Contact from "@/Components/Shared/Contact/Contact";
 import Education from "@/Components/Shared/Education/Education";
+import Experience from "@/Components/Shared/Experience/Experience";
 import Footer from "@/Components/Shared/Footer/Footer";
 import HomeAbout from "@/Components/Shared/HomeAbout/HomeAbout";
 import Navbar from "@/Components/Shared/Navbar/Navbar";
@@ -8,7 +9,7 @@ import Projects from "@/Components/Shared/Projects/Projects";
 import Skills from "@/Components/Shared/Skills/Skills";
 
 export default function Home() {
- 
+
   return (
     <main>
       <div className="relative z-40">
@@ -21,6 +22,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Education />
+      <Experience />
       <Contact />
       <Footer />
     </main>
