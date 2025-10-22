@@ -1,14 +1,14 @@
-'use client'
-import AOS from 'aos';
+"use client";
+import AOS from "aos";
 // import aos styles
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const ScrollAnim = () => {
-    useEffect(()=>{
-        AOS.init({});
-    }, []);
-    return <></>
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+  return <></>;
 };
 
 export default ScrollAnim;

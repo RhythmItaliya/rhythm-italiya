@@ -1,21 +1,29 @@
 {
-    "experience": [
-        {
-            "title": "Freelance Developer",
-            "company": "Self-Employed",
-            "location": "Surat,Ahmedabad,Gandhinagar",
-            "type": "Remote",
-            "duration": "January 2023 - Present (2 year)",
-            "description": "Providing freelance web development services, specializing in front-end and back-end technologies, delivering optimized, scalable, and secure applications to clients."
-        },
-        {
-            "title": "Intern",
-            "company": "Alofa",
-            "link": "https://www.alofa.shop",
-            "location": "Australia",
-            "type": "Remote",
-            "duration": "October 2024 - Present",
-            "description": "Currently interning at Alofa, gaining practical experience in modern development processes and contributing to real-world projects."
-        }
-    ]
+  "experience": [
+    {
+      "title": "Front End Developer",
+      "company": "Alofa",
+      "link": "https://www.alofa.shop",
+      "location": "Australia (Remote)",
+      "type": "Volunteer",
+      "duration": "October 2024 - October 2025",
+      "description": "Volunteered on development tasks for Alofa, contributing features, fixes, and improvements to their platform."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Startup (VYBE) ",
+      "location": "USA (Remote)",
+      "type": "Part-time",
+      "duration": "February 2025 - September 2025",
+      "description": "Worked at an early-stage startup helping build product features, integrations, and MVPs during the ramp-up phase."
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Self-Employed",
+      "location": "Surat, Ahmedabad, Gandhinagar",
+      "type": "Remote",
+      "duration": "June 2023 - January 2024 (8 months)",
+      "description": "Provided freelance web development services, specializing in front-end and back-end technologies, delivering optimized, scalable, and secure applications to clients."
+    }
+  ]
 }

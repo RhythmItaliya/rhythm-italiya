@@ -1,50 +1,46 @@
 {
-    "Name": "Rhythm Italiya",
-    "Role": "Mern Stack Developer",
-    "Age": 21,
-    "Gender": "Male",
-    "Address": "Surat, Gujarat, India",
-    "Phone": "+919265748502",
-    "Email": "ritaliya2003@gmail.com",
-    "Language": [
-        "English",
-        "Hindi",
-        "Gujarati"
-    ],
-    "Introduction": "Full Stack Developer with freelance experience and a background contributing to two start-ups. I enjoy building fast, reliable web apps and working with teams to turn ideas into real things. I'm a quick learner, good at solving problems, and always keen to keep learning and improving. I'm currently looking for new opportunities",
-    "links": [
-        {
-            "name": "About",
-            "to": "about"
-        },
-        {
-            "name": "Skills",
-            "to": "skills"
-        },
-        {
-            "name": "Projects",
-            "to": "projects"
-        },
-        {
-            "name": "Education",
-            "to": "education"
-        },
-        {
-            "name": "Experience",
-            "to": "experience"
-        },
-        {
-            "name": "Contact",
-            "to": "contact"
-        }
-    ],
-    "socialLinks": {
-        "facebook": "https://instagram.com/rhythmitaliya",
-        "twitter": "https://x.com/rhythmitaliya",
-        "github": "https://github.com/rhythmitaliya",
-        "linkedin": "https://linkedin.com/in/rhythmitaliya"
+  "Name": "Rhythm Italiya",
+  "Role": "Mern Stack Developer",
+  "Age": 21,
+  "Gender": "Male",
+  "Address": "Surat, Gujarat, India",
+  "Phone": "+919265748502",
+  "Email": "ritaliya2003@gmail.com",
+  "Language": ["English", "Hindi", "Gujarati"],
+  "Introduction": "Full Stack Developer with freelance experience and a background contributing to two start-ups. I enjoy building fast, reliable web apps and working with teams to turn ideas into real things. I'm a quick learner, good at solving problems, and always keen to keep learning and improving. I'm currently looking for new opportunities",
+  "links": [
+    {
+      "name": "About",
+      "to": "about"
     },
-    "Resume": {
-        "drive": "https://drive.google.com/file/d/1LpM8pW5ubj70rDIa0E2r8d4ZOOlVq2z_/view?usp=sharing"
+    {
+      "name": "Skills",
+      "to": "skills"
+    },
+    {
+      "name": "Projects",
+      "to": "projects"
+    },
+    {
+      "name": "Education",
+      "to": "education"
+    },
+    {
+      "name": "Experience",
+      "to": "experience"
+    },
+    {
+      "name": "Contact",
+      "to": "contact"
     }
+  ],
+  "socialLinks": {
+    "facebook": "https://instagram.com/rhythmitaliya",
+    "twitter": "https://x.com/rhythmitaliya",
+    "github": "https://github.com/rhythmitaliya",
+    "linkedin": "https://linkedin.com/in/rhythmitaliya"
+  },
+  "Resume": {
+    "drive": "https://drive.google.com/file/d/1LpM8pW5ubj70rDIa0E2r8d4ZOOlVq2z_/view?usp=sharing"
+  }
 }

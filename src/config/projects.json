@@ -1,126 +1,177 @@
 {
-    "dataList1": [
-        {
-            "id": 0,
-            "name": "Stokull - Stock Market Course Platform",
-            "desc": "Platform for selling stock market courses and software.",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1734442355/Img/a5zf8gxiv29vivif1mur.jpg",
-            "skills": [
-                "TypeScript",
-                "Node Js",
-                "MongoDB",
-                "Redux",
-                "Express",
-                "SCSS",
-                "HTML"
-            ],
-            "live": "https://www.stokull.com",
-            "code": "https://github.com/RhythmItaliya/online-courses-education-client",
-            "profession": "Stock Market Course Seller"
-        },
-        {
-            "id": 1,
-            "name": "Social Networking Web Application",
-            "desc": "A platform allowing users to connect, share, and interact through posts, comments, and real-time messaging.",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630410/Img/vqqtdscgzzj66fmzrd4j.png",
-            "skills": [
-                "React Js",
-                "Node Js",
-                "Redux",
-                "Express",
-                "Socket-io",
-                "Bootstrap"
-            ],
-            "live": "https://github.com/RhythmItaliya/social_media",
-            "code": "https://github.com/RhythmItaliya/social_media_db"
-        },
-        {
-            "id": 2,
-            "name": "Automated Invoice Management System",
-            "desc": "A tool for efficiently managing and creating invoices, built with modern web technologies. known as Rhyri",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630334/Img/fpcr1ibqleakqessoiaq.png",
-            "skills": [
-                "React",
-                "Tailwind",
-                "Type script",
-                "Redux",
-                "Firebase",
-                "Express"
-            ],
-            "live": "https://www.rhyri.com",
-            "code": "https://github.com/RhythmItaliya/rhyri-invoice"
-        }
-    ],
-    "dataList2": [
-        {
-            "id": 3,
-            "name": "E-commerce (Payment Gateway)",
-            "desc": "A platform for browsing products, managing carts, and securely completing payments via a payment gateway.",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630468/Img/vpbtzhtud7exyd2bqao4.png",
-            "skills": [
-                "React",
-                "TypeScript",
-                "Tailwind",
-                "Redux",
-                "Express",
-                "MongoDB",
-                "Stripe"
-            ],
-            "live": "https://github.com/RhythmItaliya/ecommers-payment-gatway",
-            "code": "https://github.com/RhythmItaliya/ecommers-payment-gatway"
-        },
-        {
-            "id": 4,
-            "name": "Restaurant Order Workflow System",
-            "desc": "A system for online order placement, processing, and tracking, helping restaurants manage orders efficiently.",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630595/Img/vgvhrito09adpvif3knm.png",
-            "skills": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "AJAX",
-                "Node.js",
-                "Express.js",
-                "MongoDB"
-            ],
-            "live": "https://github.com/RhythmItaliya/restodb",
-            "code": "https://github.com/RhythmItaliya/orderul"
-        }
-    ],
-    "dataList3": [
-        {
-            "id": 5,
-            "name": "Real-time Messaging Application",
-            "desc": "A real-time chat application supporting text and video communication across devices and platforms.",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630639/Img/ul1taspz6a6hzbndzaip.png",
-            "skills": [
-                "Tailwind",
-                "React",
-                "Type-script",
-                "Redux",
-                "Firebase",
-                "Express",
-                "Mongodb",
-                "Socket-io"
-            ],
-            "live": "https://message-friend.netlify.app",
-            "code": "https://github.com/rhythmItaliya/Chat-web"
-        },
-        {
-            "id": 6,
-            "name": "Secure OTP Delivery System for Contact Verification",
-            "desc": "Web app that can send an OTP (via SMS) to a list of contacts, one at a time. (assignment project)",
-            "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726995312/Img/vsfr8um0l6swkzuixpta.png",
-            "skills": [
-                "Mongodb",
-                "Node Js",
-                "Twilio SMS",
-                "Express",
-                "Tailwind",
-                "Ejs"
-            ],
-            "live": "https://sms-otp-tau.vercel.app",
-            "code": "https://github.com/RhythmItaliya/sms-otp"
-        }
-    ]
+  "dataList1": [
+    {
+      "id": 0,
+      "name": "Stokull - Stock Market Course Platform",
+      "desc": "Platform for selling stock market courses and software.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1734442355/Img/a5zf8gxiv29vivif1mur.jpg",
+      "skills": [
+        "TypeScript",
+        "Node Js",
+        "MongoDB",
+        "Redux",
+        "Express",
+        "SCSS",
+        "HTML"
+      ],
+      "live": "https://www.stokull.com",
+      "code": "https://github.com/RhythmItaliya/online-courses-education-client",
+      "profession": "Freelancer Project"
+    },
+    {
+      "id": 1,
+      "name": "Ecodrides",
+      "desc": "Taxi booking platform (Finland / Sweden) built with Next.js and Tailwind - English & Finnish support.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761142310/Img/ECORIDES.png",
+      "skills": ["Next.js", "Tailwind", "React", "i18n"],
+      "live": "https://ecodrides.vercel.app/",
+      "code": "https://github.com/RhythmItaliya/ecodrides",
+      "profession": "Freelancer Project"
+    },
+    {
+      "id": 2,
+      "name": "Automated Invoice Management System",
+      "desc": "A tool for efficiently managing and creating invoices, built with modern web technologies. known as Rhyri",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630334/Img/fpcr1ibqleakqessoiaq.png",
+      "skills": [
+        "React",
+        "Tailwind",
+        "Type script",
+        "Redux",
+        "Firebase",
+        "Express"
+      ],
+      "live": "https://www.rhyri.com",
+      "code": "https://github.com/RhythmItaliya/rhyri-invoice",
+      "profession": "Freelancer Project"
+    }
+  ],
+  "dataList2": [
+    {
+      "id": 0,
+      "name": "E-commerce (Payment Gateway)",
+      "desc": "A platform for browsing products, managing carts, and securely completing payments via a payment gateway.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630468/Img/vpbtzhtud7exyd2bqao4.png",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Redux",
+        "Express",
+        "MongoDB",
+        "Stripe"
+      ],
+      "live": "https://github.com/RhythmItaliya/ecommers-payment-gatway",
+      "code": "https://github.com/RhythmItaliya/ecommers-payment-gatway"
+    },
+    {
+      "id": 1,
+      "name": "Restaurant Order Workflow System",
+      "desc": "A system for online order placement, processing, and tracking, helping restaurants manage orders efficiently.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630595/Img/vgvhrito09adpvif3knm.png",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "AJAX",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "live": "https://github.com/RhythmItaliya/restodb",
+      "code": "https://github.com/RhythmItaliya/orderul"
+    },
+    {
+      "id": 2,
+      "name": "SnapShop - PHP E-commerce",
+      "desc": "Clothes store built in PHP with Stripe payment gateway integration.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761143013/Img/SNAPSHOP%28PHP%29.png",
+      "skills": ["PHP", "MySQL", "Stripe", "Bootstrap"],
+      "live": "",
+      "code": "https://github.com/RhythmItaliya/snapshop"
+    },
+    {
+      "id": 3,
+      "name": "SnapShop - React E-commerce",
+      "desc": "React version of SnapShop with the same features and Stripe payments.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761143014/Img/SNAPSHOP%28REACT%29.png",
+      "skills": ["React", "Tailwind", "Stripe", "Node.js"],
+      "live": "",
+      "code": "https://github.com/RhythmItaliya/snapshop-react"
+    }
+  ],
+  "dataList3": [
+    {
+      "id": 0,
+      "name": "Real-time Messaging Application",
+      "desc": "A real-time chat application supporting text and video communication across devices and platforms.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726630639/Img/ul1taspz6a6hzbndzaip.png",
+      "skills": [
+        "Tailwind",
+        "React",
+        "Type-script",
+        "Redux",
+        "Firebase",
+        "Express",
+        "Mongodb",
+        "Socket-io"
+      ],
+      "live": "https://message-friend.netlify.app",
+      "code": "https://github.com/rhythmItaliya/Chat-web"
+    },
+    {
+      "id": 1,
+      "name": "Secure OTP Delivery System for Contact Verification",
+      "desc": "Web app that can send an OTP (via SMS) to a list of contacts, one at a time. (assignment project)",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1726995312/Img/vsfr8um0l6swkzuixpta.png",
+      "skills": [
+        "Mongodb",
+        "Node Js",
+        "Twilio SMS",
+        "Express",
+        "Tailwind",
+        "Ejs"
+      ],
+      "live": "https://sms-otp-tau.vercel.app",
+      "code": "https://github.com/RhythmItaliya/sms-otp"
+    },
+    {
+      "id": 2,
+      "name": "PDF and Image (Puppeteer) Generation",
+      "desc": "Generate PDFs from HTML using Puppeteer in a serverless/edge environment.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761140778/Img/PDF%28Puppeteer%29%20Generation.png",
+      "skills": ["Puppeteer", "Node.js", "Next.js", "Serverless", "Automation"],
+      "live": "https://v0-vercel-puppeteer-setup.vercel.app/",
+      "code": "https://github.com/RhythmItaliya/puppeteer-pdf-image-generation"
+    },
+    {
+      "id": 3,
+      "name": "Cloudinary Image Manager",
+      "desc": "A small manager to upload, view and manage images on Cloudinary.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761141099/Img/cloudinary-image-manager.png",
+      "skills": ["React", "Node.js", "Cloudinary", "Next.js"],
+      "live": "https://cloudinary-image-manager-rhyri.vercel.app/",
+      "code": "https://github.com/RhythmItaliya/cloudinary-image-manager"
+    }
+  ],
+  "dataList4": [
+    {
+      "id": 0,
+      "name": "FarmAI",
+      "desc": "React Native app built for SIH / Hackathon showcasing AI features for farming.",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761141196/Img/FARMAI.png",
+      "skills": ["React Native", "AI", "Mobile", "SCSS", "TypeScript", "Redux"],
+      "live": "",
+      "code": "https://github.com/RhythmItaliya/FarmAI"
+    },
+    {
+      "id": 1,
+      "name": "Fireshark - Q&A Platform",
+      "desc": "A minimal question-and-answer platform for collaborative learning (hackathon project).",
+      "photo": "https://res.cloudinary.com/ds9ufpxom/image/upload/v1761141374/Img/fireshark-hackathon.png",
+      "skills": ["React", "Node.js", "Realtime", "Authentication", "Next.js"],
+      "live": "https://fireshark-client.vercel.app/",
+      "code": "https://github.com/RhythmItaliya/fireshark-hackathon"
+    }
+  ]
 }

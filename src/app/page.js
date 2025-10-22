@@ -9,12 +9,14 @@ import Projects from "@/Components/Shared/Projects/Projects";
 import Skills from "@/Components/Shared/Skills/Skills";
 
 export default function Home() {
-
   return (
     <main>
       <div className="relative z-40">
         <ParticlesCom />
-        <div className="absolute top-0 left-0 h-full min-h-screen w-full bg-transparent" id="about">
+        <div
+          className="absolute top-0 left-0 h-full min-h-screen w-full bg-transparent"
+          id="about"
+        >
           <Navbar />
           <HomeAbout />
         </div>
@@ -28,5 +30,3 @@ export default function Home() {
     </main>
   );
 }
-
-

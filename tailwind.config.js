@@ -14,8 +14,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      popins: ['Poppins', 'sans-serif'],
-    }
+      popins: ["Poppins", "sans-serif"],
+    },
   },
   plugins: [require("daisyui")],
 };

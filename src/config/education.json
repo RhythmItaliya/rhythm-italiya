@@ -1,36 +1,46 @@
 {
-    "institutions": [
-        {
-            "name": "SDJ International College",
-            "link": "https://www.sdjic.org",
-            "course": "Bachelor of Computer Applications",
-            "duration": "June 2021 - July 2024",
-            "description": "I Completed a Bachelor’s degree in Computer Applications at SDJ International College, where I gained a solid academic background in computing through a well-rounded curriculum and practical experiences.",
-            "grade": "First Class"
-        },
-        {
-            "name": "Kingcoda Education",
-            "link": "https://www.kingcoda.com",
-            "course": "MERN Stack Developer",
-            "duration": "April 2023 - December 2023",
-            "description": "Completed a full-stack developer program specializing in the MERN stack at Kingcoda Education, gaining hands-on experience in building web applications using modern technologies and development practices.",
-            "grade": "A+"
-        },
-        {
-            "name": "Panini IT Academy",
-            "link": "https://paniniitacademy.com",
-            "course": "Web Design",
-            "duration": "May 2022 - March 2023",
-            "description": "I Completed a certificate course in Web Design at Panini IT Academy, gaining a thorough understanding of front-end web development and responsive design through hands-on projects.",
-            "grade": "A+"
-        },
-        {
-            "name": "Cyber Octet",
-            "link": "https://www.cyberoctet.com",
-            "course": "Cyber Security",
-            "duration": "August 12, 2024 - Present",
-            "description": "Currently enrolled in the Best Cyber Security Program at Cyber Octet, focusing on advanced cyber security practices, threat analysis, and penetration testing.",
-            "grade": "Ongoing"
-        }
-    ]
+  "degrees": [
+    {
+      "name": "LDRP Institute of Technology and Research",
+      "link": "https://www.ldrp.ac.in",
+      "course": "Master of Computer Applications",
+      "duration": "Aug 2025 - July 2027",
+      "description": "Postgraduate program focusing on advanced computing topics, software development, and practical projects.",
+      "grade": "Ongoing"
+    },
+    {
+      "name": "SDJ International College",
+      "link": "https://www.sdjic.org",
+      "course": "Bachelor of Computer Applications",
+      "duration": "June 2021 - July 2024",
+      "description": "I Completed a Bachelor’s degree in Computer Applications at SDJ International College, where I gained a solid academic background in computing through a well-rounded curriculum and practical experiences.",
+      "grade": "First Class"
+    }
+  ],
+  "certifiedCourses": [
+    {
+      "name": "Kingcoda Education",
+      "link": "https://www.kingcoda.com",
+      "course": "MERN Stack Developer",
+      "duration": "April 2023 - December 2023",
+      "description": "Completed a full-stack developer program specializing in the MERN stack at Kingcoda Education, gaining hands-on experience in building web applications using modern technologies and development practices.",
+      "grade": "A+"
+    },
+    {
+      "name": "Panini IT Academy",
+      "link": "https://paniniitacademy.com",
+      "course": "Web Design",
+      "duration": "May 2022 - March 2023",
+      "description": "I Completed a certificate course in Web Design at Panini IT Academy, gaining a thorough understanding of front-end web development and responsive design through hands-on projects.",
+      "grade": "A+"
+    },
+    {
+      "name": "Cyber Octet",
+      "link": "https://www.cyberoctet.com",
+      "course": "Cyber Security",
+      "duration": "August 2024 - August 2025",
+      "description": "Currently enrolled in the Best Cyber Security Program at Cyber Octet, focusing on advanced cyber security practices, threat analysis, and penetration testing.",
+      "grade": "-"
+    }
+  ]
 }
