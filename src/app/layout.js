@@ -1,5 +1,9 @@
 import "./globals.css";
-import ScrollAnim from "@/Components/Ui/ScrollAnim/ScrollAnim";
+import dynamic from "next/dynamic";
+const ScrollAnim = dynamic(
+  () => import("@/Components/Ui/ScrollAnim/ScrollAnim"),
+  { ssr: false }
+);
 
 export const metadata = {
   title: "Rhythm Italiya",

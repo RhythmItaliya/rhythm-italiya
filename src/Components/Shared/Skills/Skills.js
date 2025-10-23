@@ -193,7 +193,7 @@ const Skills = () => {
       id="skills"
     >
       <div className="2xl:max-w-7xl max-w-6xl mx-auto px-4">
-        <div className="text-center pt-36 pb-10">
+        <div className="text-center pt-48 pb-10">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-popins text-white">
             Skills
           </h2>
